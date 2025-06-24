@@ -287,9 +287,9 @@ print("n - 30% генеральной выборки =", n)
 print("")
 print(df)
 
-writer = pd.ExcelWriter('random.xlsx', engine='xlsxwriter')    
-df.to_excel(writer, 'Sheet1') 
-writer.save()
+#writer = pd.ExcelWriter('random.xlsx', engine='xlsxwriter')    
+#df.to_excel(writer, 'Sheet1') 
+#writer.save()
 
 
 
