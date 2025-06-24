@@ -111,6 +111,10 @@ print("\nДисперсия\n\n",df.var(numeric_only=True))
 #Матрица корреляции
 print("\nМатрица корреляции\n", df.corr(numeric_only=True))
 
+#Визуализация
+#BoxPlots(df)
+#QQPlots(df)
+#PairPlots(df)
 
 #Пункт 2
 #2. Удаляем дубликаты
